@@ -1,0 +1,149 @@
+Source: qtdoc-opensource-src
+Section: doc
+Priority: optional
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Build-Depends: debhelper-compat (= 13),
+               libqt5xmlpatterns5-dev (>= 5.15.3~),
+               qtbase5-dev (>= 5.15.3~),
+               qtdeclarative5-dev (>= 5.15.3~),
+               qtmultimedia5-dev (>= 5.15.3~)
+Build-Depends-Indep: qt3d5-doc-html (>= 5.15.3~),
+                     qtbase5-doc-html (>= 5.15.3~),
+                     qtcharts5-doc-html (>= 5.15.3~),
+                     qtconnectivity5-doc-html (>= 5.15.3~),
+                     qtdatavisualization5-doc-html (>= 5.15.3~),
+                     qtdeclarative5-doc-html (>= 5.15.3~),
+                     qtgamepad5-doc-html (>= 5.15.3~),
+                     qtgraphicaleffects5-doc-html (>= 5.15.3~),
+                     qtlocation5-doc-html (>= 5.15.3~),
+                     qtmultimedia5-doc-html (>= 5.15.3~),
+                     qtnetworkauth5-doc-html (>= 5.15.3~),
+                     qtquickcontrols2-5-doc-html (>= 5.15.3~),
+                     qtquickcontrols5-doc-html (>= 5.15.3~),
+                     qtscript5-doc-html (>= 5.15.3~),
+                     qtscxml5-doc-html (>= 5.15.3~),
+                     qtsensors5-doc-html (>= 5.15.3~),
+                     qtserialbus5-doc-html (>= 5.15.3~),
+                     qtserialport5-doc-html (>= 5.15.3~),
+                     qtspeech5-doc-html (>= 5.15.3~),
+                     qtsvg5-doc-html (>= 5.15.3~),
+                     qttools5-dev-tools (>= 5.15.3~),
+                     qttools5-doc-html (>= 5.15.3~),
+                     qtvirtualkeyboard5-doc-html (>= 5.15.3~),
+                     qtwayland5-doc-html (>= 5.15.3~),
+                     qtwebchannel5-doc-html (>= 5.15.3~),
+                     qtwebengine5-doc-html (>= 5.15.3~),
+                     qtwebsockets5-doc-html (>= 5.15.3~),
+                     qtx11extras5-doc-html (>= 5.15.3~),
+                     qtxmlpatterns5-doc-html (>= 5.15.3~)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: http://qt-project.org/
+
+Package: qt5-quick-demos
+Architecture: any
+Multi-Arch: same
+Depends: qml-module-qt-labs-folderlistmodel,
+         qml-module-qtqml-models2,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-controls2,
+         qml-module-qtquick-dialogs,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick-particles2,
+         qml-module-qtquick-window2,
+         qml-module-qtquick-xmllistmodel,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt Quick demo applications
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains demo applications developed using Qt Quick
+ technologies: calqlatr, clocks, maroon, photosurface, rssnews, samegame,
+ stocqt, tweetsearch.
+
+Package: qt5-doc
+Architecture: all
+Depends: qt3d5-doc,
+         qtbase5-doc (>= 5.15.3~),
+         qtcharts5-doc,
+         qtconnectivity5-doc,
+         qtdatavisualization5-doc,
+         qtdeclarative5-doc,
+         qtgamepad5-doc,
+         qtgraphicaleffects5-doc,
+         qtlocation5-doc,
+         qtmultimedia5-doc,
+         qtnetworkauth5-doc,
+         qtquickcontrols2-5-doc,
+         qtquickcontrols5-doc,
+         qtscript5-doc,
+         qtscxml5-doc,
+         qtsensors5-doc,
+         qtserialbus5-doc,
+         qtserialport5-doc,
+         qtsvg5-doc,
+         qttools5-doc,
+         qtvirtualkeyboard5-doc,
+         qtwayland5-doc,
+         qtwebchannel5-doc,
+         qtwebengine5-doc,
+         qtwebsockets5-doc,
+         qtwebview5-doc,
+         qtx11extras5-doc,
+         qtxmlpatterns5-doc,
+         ${misc:Depends}
+Recommends: qt5-assistant
+Suggests: qtbase5-dev
+Description: Qt 5 API Documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt Documentation contains the offline documentation for Qt 5.
+ This package contains the complete Qt 5 API documentation (Qt's help format).
+ .
+ The documentation is provided in the Qt's help format and manpage format;
+ the Qt's help format version can be viewed in conjunction with the Qt Assistant
+ found in the qttools5-dev-tools package.
+
+Package: qt5-doc-html
+Architecture: all
+Depends: qt3d5-doc-html,
+         qtbase5-doc-html (>= 5.15.3~),
+         qtcharts5-doc-html,
+         qtconnectivity5-doc-html,
+         qtdatavisualization5-doc-html,
+         qtdeclarative5-doc-html,
+         qtgamepad5-doc-html,
+         qtgraphicaleffects5-doc-html,
+         qtlocation5-doc-html,
+         qtmultimedia5-doc-html,
+         qtnetworkauth5-doc-html,
+         qtquickcontrols2-5-doc-html,
+         qtquickcontrols5-doc-html,
+         qtscript5-doc-html,
+         qtscxml5-doc-html,
+         qtsensors5-doc-html,
+         qtserialbus5-doc-html,
+         qtserialport5-doc-html,
+         qtsvg5-doc-html,
+         qttools5-doc-html,
+         qtvirtualkeyboard5-doc-html,
+         qtwayland5-doc-html,
+         qtwebchannel5-doc-html,
+         qtwebengine5-doc-html,
+         qtwebsockets5-doc-html,
+         qtwebview5-doc-html,
+         qtx11extras5-doc-html,
+         qtxmlpatterns5-doc-html,
+         ${misc:Depends}
+Suggests: qtbase5-dev, w3m | www-browser
+Description: Qt 5 API documentation (HTML format)
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the complete Qt 5 API documentation (HTML format).
+ .
+ The documentation is provided in HTML format.
