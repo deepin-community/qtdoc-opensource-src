@@ -1,8 +1,8 @@
-usr/lib/*/qt5/examples/demos/calqlatr/
-usr/lib/*/qt5/examples/demos/clocks/
-usr/lib/*/qt5/examples/demos/maroon/
-usr/lib/*/qt5/examples/demos/photosurface/
-usr/lib/*/qt5/examples/demos/rssnews/
-usr/lib/*/qt5/examples/demos/samegame/
-usr/lib/*/qt5/examples/demos/stocqt/
-usr/lib/*/qt5/examples/demos/tweetsearch/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/calqlatr/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/clocks/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/maroon/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/photosurface/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/rssnews/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/samegame/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/stocqt/
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/examples/demos/tweetsearch/

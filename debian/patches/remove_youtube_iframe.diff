@@ -1,7 +1,7 @@
 Description: replace YouTube iframe with YouTube link
 Author: Dmitry Shachnev <mitya57@debian.org>
 Forwarded: not-needed
-Last-Update: 2019-04-02
+Last-Update: 2022-09-11
 
 --- a/doc/src/getting-started/gettingstarted.qdoc
 +++ b/doc/src/getting-started/gettingstarted.qdoc
@@ -12,8 +12,8 @@ Last-Update: 2019-04-02
 -    The following YouTube video gives a complete walk-through of the
 -    installation process:
 -
--    \youtube I5jasWrsxT0
-+    The \l{https://www.youtube.com/watch?v=I5jasWrsxT0}{following YouTube video}
+-    \youtube 232cwcW5atA
++    The \l{https://www.youtube.com/watch?v=232cwcW5atA}{following YouTube video}
 +    gives a complete walk-through of the installation process.
  
      \section2 Updating or Removing Qt
